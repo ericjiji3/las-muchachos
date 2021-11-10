@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      {/* border: 2px solid #e2dbd3; */}
        <Helmet>
                 <style>{'body { background-color: #51514f; color: #cbcac8;}'}</style>
           </Helmet>

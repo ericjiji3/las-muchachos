@@ -1,10 +1,51 @@
 .home{
     /* height: 100vh; */
     font-family: 'klein';
+    border: 7px solid #e2dbd3;
+    margin: 20px 0;
+    border-radius: 15px;
+    padding: 0;
 }
-.logo{
+.home .home-nav{
+    margin: 20px;
+}
+.picture{
+    animation: wiggle 4s linear infinite;
+    
+}
+.picture .logo{
     object-fit: cover;
     object-position: 20% 51%;
     width: 500px!important;
     height: 110px;
+}
+
+@keyframes wiggle {
+    0%{
+        transform: none;
+    }
+      12.5% {
+        transform: skewX(-1.4deg) skewY(-1.4deg)
+      }
+      25% {
+        transform: skewX(1.4deg) skewY(1.4deg)
+      }
+      37.5% {
+        transform: skewX(-1.2deg) skewY(-1.2deg)
+      }
+      50% {
+        transform: none;
+      }
+      62.5% {
+        transform: skewX(-1.4deg) skewY(-1.4deg)
+      }
+      75% {
+        transform: skewX(1.4deg) skewY(1.4deg)
+      }
+      87.5% {
+        transform: skewX(-1.2deg) skewY(-1.2deg)
+      }
+      100% {
+        transform: none;
+      }
 }

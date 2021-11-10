@@ -1,0 +1,31 @@
+.nav{
+    background-color: #252726;
+    border: 2px solid #c7bfbc;
+    border-radius: 5px;;
+}
+.brand{
+    animation: wiggle 4s linear infinite;
+    
+}
+.brand .brand-pic{
+    object-fit: cover;
+    object-position: 46% 58%;
+    width: 150px!important;
+    height: 115px;
+}
+.nav-item{
+    margin: 0 20px;
+}
+.nav-item a{
+    font-family:'klein-italic';
+    text-decoration: none;
+    color: #d0cfcd;
+    letter-spacing: 3px;
+}
+.nav-item a h2{
+    margin-bottom: 0;
+}
+
+.dropdown .dropdown-toggle::after{
+    display: none;
+}
