@@ -20,6 +20,20 @@
     height: 110px;
 }
 
+.heading-section .heading{
+  /* font-family: 'klein-italic'; */
+  /* -webkit-text-stroke: 1.5px #252726;  */
+  text-shadow: -2px 0 #252726, 0 2px #252726, 2px 0 #252726, 0 -2px #252726;
+  font-size: 3.5em;
+}
+
+.heading-image-container{
+  border: 3px solid #989898;
+  border-radius: 5px;;
+}
+.heading-image-container .heading-image{
+  width: 100%;
+}
 @keyframes wiggle {
     0%{
         transform: none;
