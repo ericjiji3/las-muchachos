@@ -18,7 +18,7 @@ function Home() {
           <img className="heading-image" src={trustNoOne}/>
         </div>
         <div className="col">
-          safds
+          ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE
         </div>
       </div>
     </div>
