@@ -3,7 +3,7 @@ import './Home.css';
 import NavBar from './NavBar';
 import logo from '../pics/grey.png';
 import { Nav } from 'reactstrap';
-import trustNoOne from '../pics/ig_pics_files/trustnoone.jpg';
+import gun from '../pics/ig_pics_files/gun.png';
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
       </div>
       <div className="row">
         <div className="heading-image-container col px-0 mx-3">
-          <img className="heading-image" src={trustNoOne}/>
+          <img className="heading-image" src={gun}/>
         </div>
         <div className="col">
           ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE
