@@ -1,0 +1,10 @@
+.home{
+    /* height: 100vh; */
+    font-family: 'klein';
+}
+.logo{
+    object-fit: cover;
+    object-position: 20% 51%;
+    width: 500px!important;
+    height: 110px;
+}
