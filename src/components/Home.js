@@ -10,11 +10,11 @@ function Home() {
     <div className="home container">
       <div className="picture row my-3 justify-content-center"><img className="logo" src={logo}/></div>
       <div className='home-nav'><NavBar/></div>
-      <div className="heading-section row">
+      <div className="heading-section row mx-3">
         <h1 className="heading">TRUST NO ONE BUT YOUR MOM</h1>
       </div>
-      <div className="row my-3">
-        <div className="heading-image-container col px-0 mx-3">
+      <div className="row my-3 mx-3">
+        <div className="heading-image-container col px-0">
           <img className="heading-image" src={gun}/>
         </div>
         <div className="col">
