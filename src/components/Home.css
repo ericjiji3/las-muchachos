@@ -30,10 +30,12 @@
 
 .heading-image-container{
   border: 3px solid #989898;
-  border-radius: 5px;;
+  border-radius: 5px;
+  background-color: #252726;
 }
 .heading-image-container .heading-image{
   width: 100%;
+  transform: scale(1.25) translateY(-20px);;
 }
 @keyframes wiggle {
     0%{

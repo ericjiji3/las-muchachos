@@ -13,7 +13,7 @@ function Home() {
       <div className="heading-section row">
         <h1 className="heading">TRUST NO ONE BUT YOUR MOM</h1>
       </div>
-      <div className="row">
+      <div className="row my-3">
         <div className="heading-image-container col px-0 mx-3">
           <img className="heading-image" src={gun}/>
         </div>
