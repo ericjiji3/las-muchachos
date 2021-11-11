@@ -4,7 +4,8 @@ import NavBar from './NavBar';
 import logo from '../pics/grey.png';
 import { Nav } from 'reactstrap';
 import gun from '../pics/ig_pics_files/gun.png';
-
+import hitclub from '../pics/ig_pics_files/hitclub.jpg';
+import computerBlue from '../pics/ig_pics_files/computerBlue.jpg';
 function Home() {
   return (
     <div className="home container">
@@ -21,6 +22,9 @@ function Home() {
           ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE
         </div>
       </div>
+      <img className="offsetPicture-1" src={hitclub}/>
+      <img className="offsetPicture-2" src={computerBlue}/>
+      
     </div>
 
   );
