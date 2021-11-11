@@ -37,6 +37,15 @@
   width: 100%;
   transform: scale(1.25) translateY(-20px);;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 @keyframes wiggle {
     0%{
         transform: none;

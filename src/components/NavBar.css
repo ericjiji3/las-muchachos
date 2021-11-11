@@ -8,6 +8,7 @@
     object-position: 46% 58%;
     width: 150px!important;
     height: 115px;
+    animation: rotation 6s infinite linear;
 }
 .nav-item:first-child{
     margin-left: 0;
