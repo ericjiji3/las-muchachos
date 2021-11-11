@@ -22,8 +22,8 @@ function Home() {
           ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE ARTICLE
         </div>
       </div>
-      <img className="offsetPicture-1" src={hitclub}/>
-      <img className="offsetPicture-2" src={computerBlue}/>
+      {/* <img className="offsetPicture-1" src={hitclub}/>
+      <img className="offsetPicture-2" src={computerBlue}/> */}
       
     </div>
 
