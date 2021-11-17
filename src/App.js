@@ -1,5 +1,8 @@
 import logo from './logo.svg';
-import Home from './components/Home';
+import Home from './pages/Home';
+import Projects from './pages/Projects'
+import Heading from './components/Heading';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import './App.css';
 
@@ -11,6 +14,7 @@ function App() {
                 <style>{'body { background-color: #1F1B18; color: #cbcac8; }'}</style>
           </Helmet>
       <Home/>
+    
     </div>
   );
 }

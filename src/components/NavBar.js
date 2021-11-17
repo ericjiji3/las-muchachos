@@ -11,8 +11,10 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+import {Link} from 'react-router-dom';
 import './NavBar.css';
 import world from '../pics/world.png';
+import Projects from '../pages/Projects';
 
 export default class NavBar extends React.Component {
   constructor(props) {
@@ -31,20 +33,22 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="nav" expand="md">
-          <div className='brand'><img className="brand-pic" src={world}/></div>
+        <Navbar className="nav py-5" expand="md">
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/"><h2>PORTFOLIO</h2></NavLink>
+            <Nav className="ml-auto mx-auto" navbar>
+              {/* <NavItem>
+                <NavLink tag={Link} to="../pages/Home.js"><h2>HOME</h2></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap"><h2>CONTACT</h2></NavLink>
+                <NavLink tag={Link} to="../pages/Projects.js"><h2>PROJECTS</h2></NavLink>
+              </NavItem> */}
+              <NavItem>
+                <NavLink exact to="../pages/Projects" className="nav-link" activeClassName="active"><h2>ABOUT</h2></NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                    <h2>MORE</h2>
+                    <h2>CONTACT</h2>
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>

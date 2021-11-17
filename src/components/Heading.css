@@ -1,0 +1,28 @@
+.home{
+    /* height: 100vh; */
+    font-family: 'klein';
+    border: 7px solid #e2dbd3;
+    /* margin: 20px 0; */
+    border-radius: 15px;
+    padding: 0;
+    background-color: #51514f;
+    position: relative;
+}
+.home .home-nav{
+    margin: 20px;
+}
+.home .header{
+  padding-top: 55px;
+  font-size: 4em;
+  letter-spacing: 8px;
+}
+.picture{
+    animation: rotation 6s infinite linear;
+}
+.picture .logo{
+    object-fit: cover;
+    object-position: 46% 58%;
+    width: 215px!important;
+    height: 150px;
+    /* animation: rotation 6s infinite linear; */
+}
