@@ -1,0 +1,10 @@
+.about{
+    /* height: 100vh; */
+    font-family: 'klein';
+    border: 7px solid #e2dbd3;
+    /* margin: 20px 0; */
+    border-radius: 15px;
+    padding: 0;
+    background-color: #51514f;
+    position: relative;
+}

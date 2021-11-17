@@ -2,7 +2,10 @@ import logo from './logo.svg';
 import Home from './pages/Home';
 import Projects from './pages/Projects'
 import Heading from './components/Heading';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import './App.css';
 
@@ -13,7 +16,14 @@ function App() {
        <Helmet>
                 <style>{'body { background-color: #1F1B18; color: #cbcac8; }'}</style>
           </Helmet>
-      <Home/>
+      <Router>
+        <Switch>
+          <Route path="/projects" component={Projects}/>
+          <Route path="/about" exact component={About}/>
+          <Route path="/contact" exact component={Contact}/>
+          <Route path="/" exact component={Home}/>
+        </Switch>
+      </Router>
     
     </div>
   );

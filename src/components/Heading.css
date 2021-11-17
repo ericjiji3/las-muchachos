@@ -8,10 +8,10 @@
     background-color: #51514f;
     position: relative;
 }
-.home .home-nav{
+.home-nav{
     margin: 20px;
 }
-.home .header{
+.header{
   padding-top: 55px;
   font-size: 4em;
   letter-spacing: 8px;
@@ -25,4 +25,26 @@
     width: 215px!important;
     height: 150px;
     /* animation: rotation 6s infinite linear; */
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+@media (max-width: 1500px){
+    .header{
+        font-size: 3em;
+    }
+    .picture .logo{
+        object-fit: cover;
+        object-position: 46% 58%;
+        width: 215px!important;
+        height: 150px;
+        /* animation: rotation 6s infinite linear; */
+    }
 }

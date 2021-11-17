@@ -1,20 +1,10 @@
 import React from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
-import {Link} from 'react-router-dom';
+import {Link} from "react-router-dom";
+import {Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 import './NavBar.css';
 import world from '../pics/world.png';
 import Projects from '../pages/Projects';
+import Home from '../pages/Home';
 
 export default class NavBar extends React.Component {
   constructor(props) {
@@ -32,41 +22,22 @@ export default class NavBar extends React.Component {
   }
   render() {
     return (
-      <div>
-        <Navbar className="nav py-5" expand="md">
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto mx-auto" navbar>
-              {/* <NavItem>
-                <NavLink tag={Link} to="../pages/Home.js"><h2>HOME</h2></NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={Link} to="../pages/Projects.js"><h2>PROJECTS</h2></NavLink>
-              </NavItem> */}
-              <NavItem>
-                <NavLink exact to="../pages/Projects" className="nav-link" activeClassName="active"><h2>ABOUT</h2></NavLink>
-              </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                    <h2>CONTACT</h2>
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
+      <nav className="nav mb-5">
+        <ul className="nav-links">
+          <Link to='/'>
+            <li className="nav-item">HOME</li>
+          </Link>
+          <Link to='/projects'>
+            <li className="nav-item">PROJECTS</li>
+          </Link>
+          <Link to='/about'>
+            <li className="nav-item">ABOUT</li>
+          </Link>
+          <Link to='/contact'>
+            <li className="nav-item">CONTACT</li>
+          </Link>
+        </ul>
+      </nav>
     );
   }
 }
