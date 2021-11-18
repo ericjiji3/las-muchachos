@@ -7,17 +7,12 @@ import gun from '../pics/ig_pics_files/gun.png';
 import hitclub from '../pics/ig_pics_files/hitclub.jpg';
 import computerBlue from '../pics/ig_pics_files/computerBlue.jpg';
 import world from '../pics/world.png';
+import Heading from '../components/Heading';
 
 function Contact() {
   return (
     <div className="contact container">
-        <div className="d-flex mt-3">
-            <div className="picture"><img className="logo" src={world}/></div>
-            <h1 className="header">LAS MUCHACHOS WORLDWIDE</h1>
-        </div>
-        <div className='home-nav'>
-            <NavBar/>
-        </div>
+        <Heading/>
         <div>
             CONTACCT
         </div>
