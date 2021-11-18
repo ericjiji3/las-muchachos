@@ -15,8 +15,8 @@ function Projects() {
   
   useEffect(() => {
     $('.projects .project-card').each(function(i){
-      var min = -10;
-      var max = 10;
+      var min = -25;
+      var max = 25;
       let randomAngleVal =   Math.floor(Math.random() * (max - min +1)) + min;
       let randomYVal = Math.floor(Math.random() * 30);
       $(this).css('transform','rotate('+ randomAngleVal +'deg)');
@@ -29,22 +29,22 @@ function Projects() {
     <div className="projects container">
         <Heading/>
         <div className="row justify-content-center">
-          <figure className="project-card col-md-3">
+          <figure className="project-card col-lg-2">
             {/* add tape here with absolute make random tape too  */}
             <img className="project-pic" src={computerBlue}/>
             <figcaption className="caption">Project</figcaption>
           </figure>
-          <figure className="project-card one col-md-3">
+          <figure className="project-card one col-lg-2">
             {/* add tape here with absolute  */}
             <img className="project-pic" src={computerBlue}/>
             <figcaption className="caption">Project</figcaption>
           </figure>
-          <figure className="project-card two col-md-3">
+          <figure className="project-card two col-lg-2">
             {/* add tape here with absolute  */}
             <img className="project-pic" src={computerBlue}/>
             <figcaption className="caption">Project</figcaption>
           </figure>
-          <figure className="project-card three col-md-3">
+          <figure className="project-card three col-lg-2">
             {/* add tape here with absolute  */}
             <img className="project-pic" src={computerBlue}/>
             <figcaption className="caption">Project</figcaption>
