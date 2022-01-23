@@ -8,7 +8,9 @@
     background-color: #51514f;
     position: relative;
 }
-
+.projects .cards{
+    margin-top: 70px;
+}
 .project-card{
     transform: rotate(-3deg);
     border: 5px solid #fff;
@@ -52,6 +54,7 @@
 }
 @media (max-width: 850px){
     .projects .cards{
+        margin-top:0;
         margin-bottom: 30px;
     }
     .project-card:before {

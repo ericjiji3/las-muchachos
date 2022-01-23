@@ -14,7 +14,7 @@ function Contact() {
     <div className="contact container">
         <Heading/>
         <div>
-            CONTACCT
+            COMING SOON...
         </div>
     </div>
 
