@@ -13,9 +13,13 @@
     transform: rotate(-3deg);
     border: 5px solid #fff;
     padding: 4px;
-    margin: 75px 50px;
+    margin: 90px 50px;
     /* width: 20%; */
     position: relative;
+}
+.project-card:hover{
+    background-color: red;
+    transform: scale(1.2);
 }
 .project-card:before {
     content: "";
@@ -39,6 +43,7 @@
     transform: translateX(30%) translateY(10%) rotate(45deg);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
 }
+
 .project-pic{
     width: 100%;
 }
