@@ -14,7 +14,7 @@ function About() {
     <div className="about container">
         <Heading/>
         <div>
-            ABOUT
+            COMING SOON...
         </div>
     </div>
 

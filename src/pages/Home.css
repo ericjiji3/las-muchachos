@@ -45,6 +45,34 @@
   top: 45%;
   left: 5%;
 }
+@media (max-width: 850px){
+  .heading-section .heading{
+    /* font-family: 'klein-italic'; */
+    /* -webkit-text-stroke: 1.5px #252726;  */
+    text-shadow: -1.2px 0 #252726, 0 1.2px #252726, 1.2px 0 #252726, 0 -1.2px #252726;
+    font-size: 1.5em;
+  }
+  .heading-image-container{
+    width: 100%!important;
+  }
+  .image-text{
+    width: 100%!important;
+  }
+  .image-text .image-header{
+    padding: 25px 0;
+    margin-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 @keyframes zoomInOut{
   0%{

@@ -20,8 +20,8 @@ function Home() {
         <div className="heading-image-container col-6 px-0">
           <img className="heading-image" src={gun}/>
         </div>
-        <div className="col-6">
-        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <div className="image-text col-6">
+        <h2 className="image-header">Lorem ipsum dolor sit amet</h2>
         <span> Donec eget dapibus justo, nec hendrerit orci. Aenean consequat tortor in diam eleifend, id viverra turpis semper. Curabitur in varius dui. Cras quis dolor vel arcu finibus finibus in ac ex. Duis imperdiet leo ac urna euismod, non pretium augue finibus. Fusce luctus ex at gravida ultrices. Nulla facilisi. Sed urna enim, lobortis at massa et, fringilla aliquet lectus. Phasellus tempor scelerisque nunc, vel posuere dui lobortis non. Quisque ut mattis ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus.
 
 In hac habitasse platea dictumst. Etiam semper iaculis volutpat. Fusce finibus neque eu lorem malesuada, eget placerat ipsum pellentesque. Praesent in sapien semper, efficitur eros sed, molestie purus. Donec pellentesque nulla at sem porta, et cursus eros fermentum. Curabitur ipsum quam, feugiat in erat at, tincidunt tincidunt justo. Proin sit amet ex scelerisque, lobortis mi at, congue arcu. Aenean tincidunt sodales justo, ac pellentesque ex auctor eget. Sed lectus risus, malesuada id risus ac, volutpat viverra dui.

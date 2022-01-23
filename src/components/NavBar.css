@@ -1,7 +1,8 @@
 .nav{
     background-color: #252726;
     border: 2px solid #c7bfbc;
-    border-radius: 5px;;
+    border-radius: 5px;
+    margin-bottom: 25px!important;
 }
 .brand .brand-pic{
     object-fit: cover;
@@ -33,4 +34,23 @@
 }
 .dropdown .dropdown-toggle::after{
     display: none;
+}
+@media(max-width: 850px){
+    .nav-links{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0;
+        list-style: none;
+        padding-left: 0;
+    }
+    .nav-links a{
+        font-family:'klein-italic';
+        text-decoration: none;
+        color: #d0cfcd;
+        letter-spacing: 1.5px;
+        font-size: .75em;
+    }
+    .nav-item{
+        margin: 0 10px;
+    }
 }

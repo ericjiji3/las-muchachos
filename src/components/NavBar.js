@@ -22,7 +22,7 @@ export default class NavBar extends React.Component {
   }
   render() {
     return (
-      <nav className="nav mb-5">
+      <nav className="nav">
         <ul className="nav-links">
           <Link to='/'>
             <li className="nav-item">HOME</li>

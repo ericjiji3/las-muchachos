@@ -28,7 +28,7 @@ function Projects() {
   return (
     <div className="projects container">
         <Heading/>
-        <div className="row justify-content-center">
+        <div className="cards row justify-content-center">
           <figure className="project-card col-md-3">
             {/* add tape here with absolute make random tape too  */}
             <img className="project-pic" src={computerBlue}/>

@@ -1,3 +1,6 @@
+.heading{
+  display:flex;
+}
 .home{
     /* height: 100vh; */
     font-family: 'klein';
@@ -47,4 +50,23 @@
         height: 150px;
         /* animation: rotation 6s infinite linear; */
     }
+}
+@media (max-width: 850px){
+  .heading{
+    display: block!important;
+  }
+  .header{
+      padding-top: 0;
+      font-size: 1.5em;
+  }
+  .picture .logo{
+      object-fit: cover;
+      object-position: 46% 58%;
+      width: 60px!important;
+      height: 115px;
+      /* animation: rotation 6s infinite linear; */
+  }
+  .home-nav{
+    margin: 0;
+}
 }

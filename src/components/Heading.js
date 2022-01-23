@@ -11,7 +11,7 @@ import world from '../pics/world.png';
 function Projects() {
   return (
     <div className="container mt-3">
-        <div className="d-flex">
+        <div className="heading">
             <div className="picture"><img className="logo" src={world}/></div>
             <h1 className="header">LAS MUCHACHOS WORLDWIDE</h1>
         </div>
