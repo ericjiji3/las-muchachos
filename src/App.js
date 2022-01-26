@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       {/* border: 2px solid #e2dbd3; */}
        <Helmet>
-                <style>{'body { background-color: #1F1B18; color: #cbcac8; }'}</style>
+                <style>{'body { background-color: #1F1B18; color: black; }'}</style>
           </Helmet>
       <Router>
         <Switch>

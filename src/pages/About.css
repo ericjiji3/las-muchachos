@@ -5,6 +5,8 @@
     /* margin: 20px 0; */
     border-radius: 15px;
     padding: 0;
-    background-color: #51514f;
+    background-image: url("../pics/body-background.jpeg");
+    background-color: #e1e3dd;
+    background-size: cover;
     position: relative;
 }

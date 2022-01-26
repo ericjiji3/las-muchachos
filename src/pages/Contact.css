@@ -5,6 +5,17 @@
     /* margin: 20px 0; */
     border-radius: 15px;
     padding: 0;
-    background-color: #51514f;
+    background-image: url("../pics/body-background.jpeg");
+    background-color: #e1e3dd;
+    background-size: cover;
     position: relative;
+}
+
+.form-container{
+    width: 50%;
+    margin: auto;
+    padding: 180px 60px 180px 90px;
+    background-image: url("../pics/form_torn.png");
+    background-size: 105% 105%;
+    /* background-size: cover; */
 }

@@ -12,7 +12,7 @@
 .heading-section .heading{
   /* font-family: 'klein-italic'; */
   /* -webkit-text-stroke: 1.5px #252726;  */
-  text-shadow: -2px 0 #252726, 0 2px #252726, 2px 0 #252726, 0 -2px #252726;
+  text-shadow: -1px 0 #252726, 0 1px #252726, -1px 0 #252726, 0 -1px #252726;
   font-size: 3.5em;
 }
 
@@ -27,8 +27,8 @@
 }
 .heading-image-container .heading-image{
   width: 100%;
-  transform: scale(1) translateY(5px);
-  animation: zoomInOut 6s infinite ease-in-out;
+  transform: scale(1.2) translateY(5px);
+  /* animation: zoomInOut 6s infinite ease-in-out; */
 }
 /* .heading-image-container .heading-image:hover{
   width: 100%;
