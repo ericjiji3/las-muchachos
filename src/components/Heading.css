@@ -1,5 +1,6 @@
 .heading{
   display:flex;
+  justify-content: center;
 }
 .home{
     /* height: 100vh; */
@@ -22,7 +23,7 @@
   letter-spacing: 8px;
 }
 .picture{
-    animation: rotation 6s infinite linear;
+    /* animation: rotation 6s infinite linear; */
 }
 .picture .logo{
     object-fit: cover;

@@ -2,7 +2,6 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 import './NavBar.css';
-import world from '../pics/world.png';
 import Projects from '../pages/Projects';
 import Home from '../pages/Home';
 

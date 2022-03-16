@@ -7,7 +7,7 @@ import { Nav } from 'reactstrap';
 import gun from '../pics/ig_pics_files/gun.png';
 import hitclub from '../pics/ig_pics_files/hitclub.jpg';
 import computerBlue from '../pics/ig_pics_files/computerBlue.jpg';
-import world from '../pics/world.png';
+import blackWorld from '../pics/black-world.gif';
 
 function Home() {
   return (

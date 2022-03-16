@@ -14,16 +14,16 @@
     margin-top: 70px;
 }
 .project-card{
+    width: 50%!important;
     transform: rotate(-3deg);
-    border: 5px solid #fff;
     padding: 4px;
     margin: 90px 50px;
     /* width: 20%; */
     position: relative;
 }
 .project-card:hover{
-    background-color: red;
     transform: scale(1.2);
+    font-size: 35px;
 }
 .project-card:before {
     content: "";
@@ -50,9 +50,14 @@
 
 .project-pic{
     width: 100%;
+    border: 5px solid #252726;
+}
+.project-pic:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project-card .caption{
     text-align: center;
+    font-size: 30px;
 }
 @media (max-width: 850px){
     .projects .cards{
