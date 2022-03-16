@@ -26,9 +26,9 @@
     /* animation: rotation 6s infinite linear; */
 }
 .picture .logo{
-    object-fit: cover;
+    /* object-fit: cover;
     object-position: 46% 58%;
-    width: 215px!important;
+    width: 215px!important; */
     height: 150px;
     /* animation: rotation 6s infinite linear; */
 }
@@ -47,9 +47,6 @@
         font-size: 3em;
     }
     .picture .logo{
-        object-fit: cover;
-        object-position: 46% 58%;
-        width: 215px!important;
         height: 150px;
         /* animation: rotation 6s infinite linear; */
     }
@@ -63,10 +60,8 @@
       font-size: 1.8em;
   }
   .picture .logo{
-      object-fit: cover;
-      object-position: 46% 58%;
-      width: 60px!important;
-      height: 115px;
+      height: 80px;
+      /* height: 115px; */
       /* animation: rotation 6s infinite linear; */
   }
   .home-nav{

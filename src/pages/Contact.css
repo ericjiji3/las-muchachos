@@ -12,10 +12,59 @@
 }
 
 .form-container{
-    width: 50%;
+    /* width: 50%;
     margin: auto;
-    padding: 180px 60px 180px 90px;
-    background-image: url("../pics/form_torn.png");
-    background-size: 105% 105%;
+    padding: 180px 60px 180px 90px; */
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 50px;
+    position: relative;
+    background-color: #F3F3F3;
     /* background-size: cover; */
 }
+.form-container:before{
+    content: "";
+  display: block;
+  position: absolute;
+  border: 50px solid transparent;
+  border-top: 50px solid #C4BFBA;
+  top: -60px;
+  left: -65px;
+  box-shadow: 0px -7px 6px -9px black;
+  transform: rotate(135deg);
+}
+.form-container:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 50px solid transparent;
+    border-bottom: 50px solid #CAC7C2;
+    bottom: -60px;
+    right: -65px;
+    box-shadow: 0px 7px 6px -9px black;
+    transform: rotate(135deg);
+  }
+
+  @media(max-width: 850px){
+    .form-container{
+        /* width: 50%;
+        margin: auto;
+        padding: 180px 60px 180px 90px; */
+        width: 100%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .form-container:before{
+        border: 40px solid transparent;
+        border-top: 40px solid #C4BFBA;
+      top: -47px;
+      left: -45px;
+    }
+    .form-container:after {
+        border: 40px solid transparent;
+        border-bottom: 40px solid #CAC7C2;
+        bottom: -47px;
+        right: -45px;
+      }
+  }

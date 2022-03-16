@@ -30,22 +30,20 @@ function Projects() {
         <Heading/>
         <div className="cards row justify-content-center">
           <figure className="project-card">
-            {/* add tape here with absolute make random tape too  */}
-            <img className="project-pic" src={jordon}/>
-            <figcaption className="caption">PAINT ME HOWEVER - JORDON</figcaption>
+            <a href="https://www.youtube.com/watch?v=Sl-807pq3cY" target="_blank">
+              <img className="project-pic" src={jordon}/>
+              <figcaption className="caption">PAINT ME HOWEVER - JORDON</figcaption>
+            </a>
           </figure>
           <figure className="project-card one">
-            {/* add tape here with absolute  */}
             <img className="project-pic" src={computerBlue}/>
             <figcaption className="caption">Project</figcaption>
           </figure>
           <figure className="project-card two">
-            {/* add tape here with absolute  */}
             <img className="project-pic" src={computerBlue}/>
             <figcaption className="caption">Project</figcaption>
           </figure>
           <figure className="project-card three">
-            {/* add tape here with absolute  */}
             <img className="project-pic" src={computerBlue}/>
             <figcaption className="caption">Project</figcaption>
           </figure>

@@ -47,6 +47,10 @@
     transform: translateX(30%) translateY(10%) rotate(45deg);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
 }
+.project-card a{
+    text-decoration: none;
+    color: black;
+}
 
 .project-pic{
     width: 100%;
@@ -74,10 +78,12 @@
     }
     .project-card{
         transform: rotate(-3deg);
-        border: 5px solid #fff;
-        padding: 4px;
-        margin: 20px 20px;
-        width: 30%!important;
+        padding: 0!important;
+        margin: 40px 20px;
+        width: 80%!important;
         position: relative;
+    }
+    .project-card .caption{
+        font-size: 20px;
     }
 }
