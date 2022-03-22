@@ -68,3 +68,9 @@
         right: -45px;
       }
   }
+
+  @media(max-width: 450px){
+    .form-container{
+      width: 95%;
+    }
+  }
