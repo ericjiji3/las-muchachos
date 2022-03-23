@@ -30,7 +30,7 @@ function Projects() {
         <Heading/>
         <div className="cards row justify-content-center">
           <figure className="project-card">
-            <a href="https://www.youtube.com/watch?v=Sl-807pq3cY" target="_blank">
+            <a href="https://www.youtube.com/watch?v=zxA9LQOj2_k" target="_blank">
               <img className="project-pic" src={jordon}/>
               <figcaption className="caption">PAINT ME HOWEVER - JORDON</figcaption>
             </a>
