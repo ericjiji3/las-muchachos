@@ -4,6 +4,7 @@ import Projects from './pages/Projects'
 import Heading from './components/Heading';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Pricing from './pages/Pricing';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
@@ -21,6 +22,7 @@ function App() {
           <Route path="/projects" component={Projects}/>
           <Route path="/about" exact component={About}/>
           <Route path="/contact" exact component={Contact}/>
+          <Route path="/pricing" exact component={Pricing}/>
           <Route path="/" exact component={Home}/>
         </Switch>
       </Router>
