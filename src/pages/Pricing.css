@@ -1,11 +1,35 @@
 .pricing{
-    /* height: 100vh; */
-    font-family: 'klein';
-    border: 7px solid #e2dbd3;
-    /* margin: 20px 0; */
-    border-radius: 15px;
-    /* padding: 0!important; */
-    background-color: #51514f;
-    background-image: url("../pics/body-background.jpeg");
-    position: relative;
-  }
+  /* height: 100vh; */
+  font-family: 'klein-bold';
+  letter-spacing: 2px;
+  border: 7px solid #e2dbd3;
+  /* margin: 20px 0; */
+  border-radius: 15px;
+  /* padding: 0!important; */
+  background-color: #51514f;
+  background-image: url("../pics/body-background.jpeg");
+  position: relative;
+}
+.pricing .services{
+  width: 90%;
+  margin: auto;
+  background-color: #f3f3f3;
+}
+.pricing .services .table .table-heading .breakdown{
+  width: 25%;
+}
+.pricing .services .table .table-content{
+  vertical-align: baseline;
+}
+.pricing .services .table .table-content .dollars-day{
+  display: block;
+}
+.pricing .services .table .table-content ul{
+  list-style-position: inside;
+}
+.pricing .services .table .table-content .consider-list li{
+  padding: 10px 0;
+}
+.pricing .services .table .table-content .cost-breakdown-list li{
+  padding: 5px 0;
+}

@@ -1,6 +1,7 @@
 .heading{
   display:flex;
   justify-content: center;
+  font-family: 'klein';
 }
 .home{
     /* height: 100vh; */

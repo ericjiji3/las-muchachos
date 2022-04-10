@@ -6,6 +6,19 @@
   font-family: 'klein';
   src: url(./fonts/Klein-Condensed-ExtraBold-trial.ttf);
 }  
+@font-face {
+  font-family: 'klein-bold';
+  src: url(./fonts/Klein-Bold.ttf);
+}  
+@font-face{
+  font-family: 'newsflash';
+  src: url(./fonts/NewsflashBB.ttf);
+}
+@font-face{
+  font-family: 'knorke';
+  src: url(./fonts/Knorke.ttf);
+}
+
 
 body {
   margin: 0;
