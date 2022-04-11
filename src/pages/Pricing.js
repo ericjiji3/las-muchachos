@@ -8,63 +8,106 @@ function Pricing() {
     return (
       <div className="pricing container">
           <Heading/>
+          <h4>SERVICES</h4>
           <div className="services">
-            <Accordion defaultActiveKey="0" flush>
+            <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
-                <Accordion.Header>Music Video</Accordion.Header>
+                <Accordion.Header><h4>Music Video</h4></Accordion.Header>
                 <Accordion.Body>
-                  <table className="table">
-                    <tr className="table-heading">
-                      <th className="price"><h4><b>$/X</b> (Prices below are MINIMUMS)</h4></th>
-                      <th className="consider"><b>Things To Consider</b></th>
-                      <th className="breakdown"><b>Cost Breakdown</b></th>
+                  {window.innerWidth > 767 ?
+                    <table className="music-video">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5 className="d-block">$/X</h5>
+                          <h5>(Prices below are MINIMUMS)</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span className="d-block"><u>$500/Day</u></span>
+                          <span>Consists of a 3-person crew, an intern, camera and basic lighting included.</span>
+                        </div>
+                      </td>
                     </tr>
-                    <tr className="table-content">
+                    <tr className="things-to-consider">
                       <th>
-                        <span className="dollars-day"><b>$500/Day</b></span>
-                        <span>Consists of a 3-person crew, an intern, camera and basic lighting included.</span>
+                        <div className="table-heading">
+                          <h5>Things To Consider</h5>
+                        </div>
                       </th>
+                      <td>
+                        <div className="description">
+                            <span>-Projects have additional costs that MUST be covered by the artist. (For EX: Locations, Car Rentals, Clothing, and Special Camera Gear Rentals.).</span>
+                            <span>-The size of the project may require an increase of crew size of 3 to 4 people. Pricing for a 4 person crew is $600/Day</span>
+                            <span>-The pricing for any Music Video does not include the cost of an editor. You may choose an editor of your choice, or we have a network of editors we can choose based on styling and budget. Editing is priced at $100 minimum per project, but can vary greatly depending on the editor and project complexity.</span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr className="cost-breakdown">
                       <th>
-                        <ul className='consider-list'>
-                          <li>Projects have additional costs that MUST be covered by the artist. (For EX: Locations, Car Rentals, Clothing, and Special Camera Gear Rentals.).</li>
-                          <li>The size of the project may require an increase of crew size of 3 to 4 people. Pricing for a 4 person crew is $600/Day</li>
-                          <li>The pricing for any Music Video does not include the cost of an editor. You may choose an editor of your choice, or we have a network of editors we can choose based on styling and budget. Editing is priced at $100 minimum per project, but can vary greatly depending on the editor and project complexity.</li>
-                        </ul>
+                        <div className="table-heading">
+                          <h5>Cost Breakdown</h5>
+                        </div>
                       </th>
-                      <th>
-                        <ul className='cost-breakdown-list'>
-                          <li>Director - $100</li>
-                          <li>DP - $100</li>
-                          <li>Lighting - $100</li>
-                          <li>Food - $100</li>
-                          <li>Company Fee - $100</li>
-                          <li>Intern - $0</li>
-                        </ul>
-                        <span><b>Potential Extra Costs</b></span>
-                        <ul>
-                          <li>PA - $100</li>
-                        </ul>
-                      </th>
+                      <td>
+                        <div className="description">
+                            <span>Director - <u>$100</u></span>
+                            <span>DP - <u>$100</u></span>
+                            <span>Lighting - <u>$100</u></span>
+                            <span>Food- <u>$100</u></span>
+                            <span>Company Fee - <u>$100</u></span>
+                            <span>Intern - <u>$0</u></span>
+                            <span className="extra-costs">*Potential Extra Costs*</span>
+                            <span>PA - <u>$100</u></span>
+                        </div>
+                      </td>
                     </tr>
                   </table>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="1">
-                <Accordion.Header>Short Film</Accordion.Header>
-                <Accordion.Body>
-                  fadadsfadfa
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="2">
-                <Accordion.Header>Commercial</Accordion.Header>
-                <Accordion.Body>
-                  fadadsfadfa
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="3">
-                <Accordion.Header>Photoshoot</Accordion.Header>
-                <Accordion.Body>
-                  fadadsfadfa
+                  :
+                  <div className="responsive-music-video">
+                    <div className="responsive-money">
+                        <div className="responsive-heading">
+                          <h5>$/X</h5>
+                          <h5>(Prices below are MINIMUMS)</h5>
+                        </div>
+                        <div className="responsive-description">
+                          <span className="d-block"><u>$500/Day</u></span>
+                          <span>Consists of a 3-person crew, an intern, camera and basic lighting included.</span>
+                        </div>
+                    </div>
+                    <div className="responsive-things-to-consider">
+                        <div className="responsive-heading">
+                          <h5>Things To Consider</h5>
+                        </div>
+                        <div className="responsive-description">
+                          <ul>
+                            <li>Projects have additional costs that MUST be covered by the artist. (For EX: Locations, Car Rentals, Clothing, and Special Camera Gear Rentals.).</li>
+                            <li>The size of the project may require an increase of crew size of 3 to 4 people. Pricing for a 4 person crew is $600/Day</li>
+                            <li>The pricing for any Music Video does not include the cost of an editor. You may choose an editor of your choice, or we have a network of editors we can choose based on styling and budget. Editing is priced at $100 minimum per project, but can vary greatly depending on the editor and project complexity.</li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div className="responsive-cost-breakdown">
+                        <div className="responsive-heading">
+                          <h5>Cost Breakdown</h5>
+                        </div>
+                        <div className="responsive-description">
+                            <span>Director - <u>$100</u></span>
+                            <span>DP - <u>$100</u></span>
+                            <span>Lighting - <u>$100</u></span>
+                            <span>Food- <u>$100</u></span>
+                            <span>Company Fee - <u>$100</u></span>
+                            <span>Intern - <u>$0</u></span>
+                            <span className="exdiva-costs">*Potential Extra Costs*</span>
+                            <span>PA - <u>$100</u></span>
+                        </div>
+                    </div>
+                  </div>
+                  
+                
+                }
+                
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

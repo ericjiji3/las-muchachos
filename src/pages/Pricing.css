@@ -15,21 +15,80 @@
   margin: auto;
   background-color: #f3f3f3;
 }
-.pricing .services .table .table-heading .breakdown{
-  width: 25%;
+.pricing .services .accordion-header .accordion-button{
+  background-color: #989898;
 }
-.pricing .services .table .table-content{
-  vertical-align: baseline;
+.pricing .services .accordion-body{
+  background-color: #989898;
+  padding: 0;
 }
-.pricing .services .table .table-content .dollars-day{
+/* .pricing .services .money, .things-to-consider, .cost-breakdown{
+  display: flex;
+}
+.pricing .services .money .heading{
   display: block;
+} */
+.pricing .services .music-video{
+  /* border-collapse:separate; */
+  /* border-spacing: 0 20px; */
 }
-.pricing .services .table .table-content ul{
+.pricing .services .music-video th .table-heading{
+  padding: 10px;
+}
+.pricing .services .music-video tr{
+  border: none;
+}
+.pricing .services .music-video td{
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+.pricing .services .music-video td .description{
+  padding: 10px;
+}
+.pricing .services .music-video ul{
   list-style-position: inside;
 }
-.pricing .services .table .table-content .consider-list li{
+.pricing .services .music-video .things-to-consider{
+  background-color: #f3f3f3;
+}
+.pricing .services .music-video .things-to-consider .description span{
+  display: block;
+  text-align: initial;
+  padding: 5px 0;
+}
+.pricing .services .music-video .cost-breakdown .description .extra-costs{
+  padding: 5px 0;
+}
+.pricing .services .music-video .cost-breakdown .description span{
+  display: block;
+  text-align: initial;
+  /* padding: 5px 0; */
+}
+
+
+.pricing .responsive-music-video .responsive-money, .responsive-things-to-consider, .responsive-cost-breakdown{
   padding: 10px 0;
 }
-.pricing .services .table .table-content .cost-breakdown-list li{
+.pricing .responsive-music-video .responsive-heading{
+  border-bottom: 1px solid black;
+}
+.pricing .responsive-music-video .responsive-description{
+  padding: 10px;
+  font-size: 12.5px;
+}
+
+.pricing .responsive-music-video .responsive-things-to-consider{
+  background-color: #f3f3f3;
+}
+.pricing .responsive-music-video .responsive-things-to-consider ul{
+  list-style-position: inside;
+  text-align: initial;
+}
+.pricing .responsive-music-video .responsive-things-to-consider ul li{
+  padding: 5px 0;
+}
+
+.pricing .responsive-music-video .responsive-cost-breakdown span{
+  display: block;
   padding: 5px 0;
 }
