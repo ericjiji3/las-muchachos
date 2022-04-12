@@ -22,6 +22,9 @@
   background-color: #989898;
   padding: 0;
 }
+
+/* ***************MUSIC VIDEO CSS******************** */
+
 /* .pricing .services .money, .things-to-consider, .cost-breakdown{
   display: flex;
 }
@@ -50,6 +53,11 @@
 }
 .pricing .services .music-video .things-to-consider{
   background-color: #f3f3f3;
+}
+.pricing .services .music-video .money .description span{
+  display: block;
+  text-align: initial;
+  padding: 5px 0;
 }
 .pricing .services .music-video .things-to-consider .description span{
   display: block;
@@ -89,6 +97,216 @@
 }
 
 .pricing .responsive-music-video .responsive-cost-breakdown span{
+  display: block;
+  padding: 5px 0;
+}
+
+
+
+/* ***************SHORT FILM CSS******************** */
+
+.pricing .services .short-film th .table-heading{
+  padding: 10px;
+}
+.pricing .services .short-film tr{
+  border: none;
+}
+.pricing .services .short-film td{
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+.pricing .services .short-film td .description{
+  padding: 10px;
+}
+.pricing .services .short-film ul{
+  list-style-position: inside;
+}
+.pricing .services .short-film .things-to-consider{
+  background-color: #f3f3f3;
+}
+.pricing .services .short-film .money .description span{
+  display: block;
+  text-align: initial;
+  padding: 5px 0;
+}
+.pricing .services .short-film .things-to-consider .description span{
+  display: block;
+  text-align: initial;
+  padding: 5px 0;
+}
+.pricing .services .short-film .cost-breakdown .description .extra-costs{
+  padding: 5px 0;
+}
+.pricing .services .short-film .cost-breakdown .description span{
+  display: block;
+  text-align: initial;
+  /* padding: 5px 0; */
+}
+
+
+.pricing .responsive-short-film .responsive-money, .responsive-things-to-consider, .responsive-cost-breakdown{
+  padding: 10px 0;
+}
+.pricing .responsive-short-film .responsive-heading{
+  border-bottom: 1px solid black;
+}
+.pricing .responsive-short-film .responsive-description{
+  padding: 10px;
+  font-size: 12.5px;
+}
+
+.pricing .responsive-short-film .responsive-things-to-consider{
+  background-color: #f3f3f3;
+}
+.pricing .responsive-short-film .responsive-things-to-consider ul{
+  list-style-position: inside;
+  text-align: initial;
+}
+.pricing .responsive-short-film .responsive-things-to-consider ul li{
+  padding: 5px 0;
+}
+
+.pricing .responsive-short-film .responsive-cost-breakdown span{
+  display: block;
+  padding: 5px 0;
+}
+
+
+
+/* ***************COMMERCIAL CSS******************** */
+
+.pricing .services .commercial th .table-heading{
+  padding: 10px;
+}
+.pricing .services .commercial tr{
+  border: none;
+}
+.pricing .services .commercial td{
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+.pricing .services .commercial td .description{
+  padding: 10px;
+}
+.pricing .services .commercial ul{
+  list-style-position: inside;
+}
+.pricing .services .commercial .things-to-consider{
+  background-color: #f3f3f3;
+}
+.pricing .services .commercial .money .description span{
+  display: block;
+  text-align: initial;
+  padding: 5px 0;
+}
+.pricing .services .commercial .things-to-consider .description span{
+  display: block;
+  text-align: initial;
+  padding: 5px 0;
+}
+.pricing .services .commercial .cost-breakdown .description .extra-costs{
+  padding: 5px 0;
+}
+.pricing .services .commercial .cost-breakdown .description span{
+  display: block;
+  text-align: initial;
+  /* padding: 5px 0; */
+}
+
+
+.pricing .responsive-commercial .responsive-money, .responsive-things-to-consider, .responsive-cost-breakdown{
+  padding: 10px 0;
+}
+.pricing .responsive-commercial .responsive-heading{
+  border-bottom: 1px solid black;
+}
+.pricing .responsive-commercial .responsive-description{
+  padding: 10px;
+  font-size: 12.5px;
+}
+
+.pricing .responsive-commercial .responsive-things-to-consider{
+  background-color: #f3f3f3;
+}
+.pricing .responsive-commercial .responsive-things-to-consider ul{
+  list-style-position: inside;
+  text-align: initial;
+}
+.pricing .responsive-commercial .responsive-things-to-consider ul li{
+  padding: 5px 0;
+}
+
+.pricing .responsive-commercial .responsive-cost-breakdown span{
+  display: block;
+  padding: 5px 0;
+}
+
+
+
+/* ***************PHOTOSHOOT CSS******************** */
+
+.pricing .services .photoshoot th .table-heading{
+  padding: 10px;
+}
+.pricing .services .photoshoot tr{
+  border: none;
+}
+.pricing .services .photoshoot td{
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+.pricing .services .photoshoot td .description{
+  padding: 10px;
+}
+.pricing .services .photoshoot ul{
+  list-style-position: inside;
+}
+.pricing .services .photoshoot .things-to-consider{
+  background-color: #f3f3f3;
+}
+.pricing .services .photoshoot .money .description span{
+  display: block;
+  text-align: initial;
+  padding: 5px 0;
+}
+.pricing .services .photoshoot .things-to-consider .description span{
+  display: block;
+  text-align: initial;
+  padding: 5px 0;
+}
+.pricing .services .photoshoot .cost-breakdown .description .extra-costs{
+  padding: 5px 0;
+}
+.pricing .services .photoshoot .cost-breakdown .description span{
+  display: block;
+  text-align: initial;
+  /* padding: 5px 0; */
+}
+
+
+.pricing .responsive-photoshoot .responsive-money, .responsive-things-to-consider, .responsive-cost-breakdown{
+  padding: 10px 0;
+}
+.pricing .responsive-photoshoot .responsive-heading{
+  border-bottom: 1px solid black;
+}
+.pricing .responsive-photoshoot .responsive-description{
+  padding: 10px;
+  font-size: 12.5px;
+}
+
+.pricing .responsive-photoshoot .responsive-things-to-consider{
+  background-color: #f3f3f3;
+}
+.pricing .responsive-photoshoot .responsive-things-to-consider ul{
+  list-style-position: inside;
+  text-align: initial;
+}
+.pricing .responsive-photoshoot .responsive-things-to-consider ul li{
+  padding: 5px 0;
+}
+
+.pricing .responsive-photoshoot .responsive-cost-breakdown span{
   display: block;
   padding: 5px 0;
 }
