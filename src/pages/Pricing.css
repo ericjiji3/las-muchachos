@@ -310,3 +310,41 @@
   display: block;
   padding: 5px 0;
 }
+
+/* ***************RENTALS CSS******************** */
+.pricing .rentals{
+  width: 90%;
+  margin: auto;
+}
+.pricing .rentals .accordion-header .accordion-button{
+  background-color: #989898;
+}
+.pricing .rentals .accordion-body{
+  background-color: #989898;
+  padding: 0;
+}
+
+.pricing .rentals th .table-heading{
+  padding: 10px;
+}
+.pricing .rentals tr{
+  border: none;
+}
+.pricing .rentals td{
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+.pricing .rentals td .description{
+  padding: 10px;
+}
+.pricing .rentals ul{
+  list-style-position: inside;
+}
+.pricing .rentals .things-to-consider{
+  background-color: #f3f3f3;
+}
+.pricing .rentals .money .description span{
+  display: block;
+  text-align: initial;
+  padding: 5px 0;
+}

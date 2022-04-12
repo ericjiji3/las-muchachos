@@ -372,6 +372,148 @@ function Pricing() {
               </Accordion.Item>
             </Accordion>
           </div>
+          <div className="rentals">
+          <h2>RENTALS</h2>
+          <h3>Cameras</h3>
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header><h3>Canon R5 - <u>$60/Day</u> OR <u>$150/7 Days</u></h3></Accordion.Header>
+                <Accordion.Body>
+                    <table className="canon-r5">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Whats Included?</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span>Includes an EF-RF Adapter (W/ Control Ring) and small-tote bag.</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header><h3>Canon 5D Mark II - <u>$25/Day/Weekend</u> OR <u>$60/7 Days</u></h3></Accordion.Header>
+                <Accordion.Body>
+                    <table className="canon-5d">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Whats Included?</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span>Small-tote bag included.</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header><h3>Canon 5D Mark II - <u>$25/Day/Weekend</u> OR <u>$60/7 Days</u></h3></Accordion.Header>
+                <Accordion.Body>
+                    <table className="canon-5d">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Whats Included?</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span>Small-tote bag included.</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </Accordion.Body>
+              </Accordion.Item>
+              </Accordion>
+              <h3>Lenses</h3>
+              <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header><h3>Canon EF 50mm f/1.8 II Lens - <u>$10/Day/Weekend</u> OR <u>$25/7 Days</u></h3></Accordion.Header>
+                <Accordion.Body>
+                    <table className="canon-ef-50">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Whats Included?</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span>Comes with front and rear lens caps.</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header><h3>Canon EF 85mm f/1.8 USM - <u>$10/Day/Weekend</u> OR <u>$25/7 Days</u></h3></Accordion.Header>
+                <Accordion.Body>
+                    <table className="canon-ef-85">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Whats Included?</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span>Comes with front and rear lens caps.</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header><h3>Canon EF 24-105mm f/4 L IS USM - <u>$20/Day/Weekend</u> OR <u>$40/7 Days</u></h3></Accordion.Header>
+                <Accordion.Body>
+                    <table className="canon-ef-105">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Whats Included?</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span>Comes with front and rear lens caps.</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header><h3>Canon EF Set (50mm, 85mm, 24-105mm) - <u>$30/Day/Weekend</u> OR <u>$70/7 Days</u></h3></Accordion.Header>
+                <Accordion.Body>
+                    <table className="canon-ef-105">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Whats Included?</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span>Comes with front and rear lens caps.</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+          </div>
       </div>
   
     );
