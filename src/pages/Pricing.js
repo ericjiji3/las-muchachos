@@ -372,9 +372,9 @@ function Pricing() {
               </Accordion.Item>
             </Accordion>
           </div>
-          <div className="rentals">
+          <div className="rentals mt-5">
           <h2>RENTALS</h2>
-          <h3>Cameras</h3>
+          <h3 className="rental-cameras">Cameras</h3>
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header><h3>Canon R5 - <u>$60/Day</u> OR <u>$150/7 Days</u></h3></Accordion.Header>
@@ -434,10 +434,18 @@ function Pricing() {
                 </Accordion.Body>
               </Accordion.Item>
               </Accordion>
-              <h3>Lenses</h3>
+              <div className="rental-lenses">
+                <h3>Lenses</h3>
+                <h4>*All lenses have front and rear caps. Comes with Pelican Carrying case*</h4>
+                <h5>Canon EF 50mm f/1.8 II Lens - <u>$10/Day/Weekend</u> OR <u>$25/7 Days</u></h5>
+                <h5>Canon EF 85mm f/1.8 USM - <u>$10/Day/Weekend</u> OR <u>$25/7 Days</u></h5>
+                <h5>Canon EF 24-105mm f/4 L IS USM - <u>$20/Day/Weekend</u> OR <u>$40/7 Days</u></h5>
+                <h5>Canon EF Set (50mm, 85mm, 24-105mm) - <u>$30/Day/Weekend</u> OR <u>$70/7 Days</u></h5>
+              </div>
+            <h3>Camera Accessories</h3>
               <Accordion>
               <Accordion.Item eventKey="0">
-                <Accordion.Header><h3>Canon EF 50mm f/1.8 II Lens - <u>$10/Day/Weekend</u> OR <u>$25/7 Days</u></h3></Accordion.Header>
+                <Accordion.Header><h3>Ninja V Recorder - <u>$20/Day/Weekend</u> OR <u>$50/7 Days</u></h3></Accordion.Header>
                 <Accordion.Body>
                     <table className="canon-ef-50">
                     <tr className="money">
@@ -448,7 +456,7 @@ function Pricing() {
                       </th>
                       <td>
                         <div className="description">
-                          <span>Comes with front and rear lens caps.</span>
+                          <span>Comes with carrying case, HDMI to mini-HDMI cable, 4 batteries, an extra two-slot charger, a cold shoe monitor mount, and a screen visor. 500gb Mini AtomX SSD (usb-c adapter included) is available as an add-on for $5/Day/Wknd or $20/7Days.</span>
                         </div>
                       </td>
                     </tr>
@@ -456,7 +464,7 @@ function Pricing() {
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header><h3>Canon EF 85mm f/1.8 USM - <u>$10/Day/Weekend</u> OR <u>$25/7 Days</u></h3></Accordion.Header>
+                <Accordion.Header><h3>Libec TH-X Head and Tripod System - <u>$10/Day/Weekend</u> OR <u>$30/7 Days</u></h3></Accordion.Header>
                 <Accordion.Body>
                     <table className="canon-ef-85">
                     <tr className="money">
@@ -467,7 +475,7 @@ function Pricing() {
                       </th>
                       <td>
                         <div className="description">
-                          <span>Comes with front and rear lens caps.</span>
+                          <span>Comes with tripod carrying bag and tripod plate mount. Cheeseplate available upon request.</span>
                         </div>
                       </td>
                     </tr>
@@ -475,7 +483,7 @@ function Pricing() {
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
-                <Accordion.Header><h3>Canon EF 24-105mm f/4 L IS USM - <u>$20/Day/Weekend</u> OR <u>$40/7 Days</u></h3></Accordion.Header>
+                <Accordion.Header><h3>EF-RF Adapter W/ Control Ring - <u>Available upon request.</u></h3></Accordion.Header>
                 <Accordion.Body>
                     <table className="canon-ef-105">
                     <tr className="money">
@@ -486,7 +494,7 @@ function Pricing() {
                       </th>
                       <td>
                         <div className="description">
-                          <span>Comes with front and rear lens caps.</span>
+                          <span>Small soft case included. Adapter comes with front and rear caps.</span>
                         </div>
                       </td>
                     </tr>
@@ -494,7 +502,7 @@ function Pricing() {
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
-                <Accordion.Header><h3>Canon EF Set (50mm, 85mm, 24-105mm) - <u>$30/Day/Weekend</u> OR <u>$70/7 Days</u></h3></Accordion.Header>
+                <Accordion.Header><h3>SmallRig Camera Tripod Mounting Baseplate w/15mm Rod Clamp Rail Block - <u>$7.50/Day/Weekend</u> OR <u>$20/7 Days</u></h3></Accordion.Header>
                 <Accordion.Body>
                     <table className="canon-ef-105">
                     <tr className="money">
@@ -505,7 +513,69 @@ function Pricing() {
                       </th>
                       <td>
                         <div className="description">
-                          <span>Comes with front and rear lens caps.</span>
+                          <span>Rails and Lens Support included.</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4">
+                <Accordion.Header><h3>Sandisk 128GB CF2.0 Type B - <u>$10/Day/Weekend</u> OR <u>$30/7 Days</u></h3></Accordion.Header>
+                <Accordion.Body>
+                    <table className="canon-ef-105">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Whats Included?</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span>USB-C Adapter available upon request, but dependent on availability.</span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr className="things-to-consider">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Things To Consider</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                            <span>-Required to shoot 8k internally with the Canon R5.</span>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header><h3>ProMaster 128GB CF2.0 Type B - <u>$10/Day/Weekend</u> OR <u>$30/7 Days</u></h3></Accordion.Header>
+                <Accordion.Body>
+                    <table className="canon-ef-105">
+                    <tr className="money">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Whats Included?</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                          <span>USB-C Adapter available upon request, but dependent on availability.</span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr className="things-to-consider">
+                      <th>
+                        <div className="table-heading">
+                          <h5>Things To Consider</h5>
+                        </div>
+                      </th>
+                      <td>
+                        <div className="description">
+                            <span>-Required to shoot 8k internally with the Canon R5.</span>
                         </div>
                       </td>
                     </tr>
@@ -513,6 +583,9 @@ function Pricing() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
+            <h3>Lighting Accessories</h3>
+            <h5>C-Stand - <u>$6/Day/Weekend</u> OR <u>$21/7 Days</u></h5>
+            <h5>Flag Kit - <u>$10/Day/Weekend</u> OR <u>$35/7 Days</u></h5>
           </div>
       </div>
   

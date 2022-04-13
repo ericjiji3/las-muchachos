@@ -316,6 +316,13 @@
   width: 90%;
   margin: auto;
 }
+.pricing .rentals .rental-cameras{
+  text-align: initial;
+}
+.pricing .rentals .rental-lenses{
+  text-align: initial;
+  margin-top: 20px;
+}
 .pricing .rentals .accordion-header .accordion-button{
   background-color: #989898;
 }
