@@ -442,7 +442,7 @@ function Pricing() {
                 <h5>Canon EF 24-105mm f/4 L IS USM - <u>$20/Day/Weekend</u> OR <u>$40/7 Days</u></h5>
                 <h5>Canon EF Set (50mm, 85mm, 24-105mm) - <u>$30/Day/Weekend</u> OR <u>$70/7 Days</u></h5>
               </div>
-            <h3>Camera Accessories</h3>
+            <h3 className='rental-cam-accessories'>Camera Accessories</h3>
               <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header><h3>Ninja V Recorder - <u>$20/Day/Weekend</u> OR <u>$50/7 Days</u></h3></Accordion.Header>
@@ -583,9 +583,11 @@ function Pricing() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <h3>Lighting Accessories</h3>
-            <h5>C-Stand - <u>$6/Day/Weekend</u> OR <u>$21/7 Days</u></h5>
-            <h5>Flag Kit - <u>$10/Day/Weekend</u> OR <u>$35/7 Days</u></h5>
+            <div className="rental-lighting"> 
+              <h3>Lighting Accessories</h3>
+              <h5>C-Stand - <u>$6/Day/Weekend</u> OR <u>$21/7 Days</u></h5>
+              <h5>Flag Kit - <u>$10/Day/Weekend</u> OR <u>$35/7 Days</u></h5>
+            </div>
           </div>
       </div>
   
