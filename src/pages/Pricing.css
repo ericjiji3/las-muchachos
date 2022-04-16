@@ -125,7 +125,7 @@
   border: none;
 }
 .pricing .services .short-film td{
-  border-left: 1px solid black;
+  border-left: 2px solid #f3f3f3;
   padding-left: 20px;
 }
 .pricing .services .short-film td .description{
@@ -162,7 +162,7 @@
   padding: 10px 0;
 }
 .pricing .responsive-short-film .responsive-heading{
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 .pricing .responsive-short-film .responsive-description{
   padding: 10px;
@@ -170,7 +170,11 @@
 }
 
 .pricing .responsive-short-film .responsive-things-to-consider{
-  background-color: #f3f3f3;
+  background-color: black;
+  color: white;
+}
+.pricing .responsive-short-film .responsive-things-to-consider .responsive-heading{
+  border-bottom: 2px solid white;
 }
 .pricing .responsive-short-film .responsive-things-to-consider ul{
   list-style-position: inside;
@@ -196,7 +200,7 @@
   border: none;
 }
 .pricing .services .commercial td{
-  border-left: 1px solid black;
+  border-left: 2px solid #f3f3f3;
   padding-left: 20px;
 }
 .pricing .services .commercial td .description{
@@ -206,7 +210,8 @@
   list-style-position: inside;
 }
 .pricing .services .commercial .things-to-consider{
-  background-color: #f3f3f3;
+  background-color: black;
+  color: white;
 }
 .pricing .services .commercial .money .description span{
   display: block;
@@ -232,7 +237,7 @@
   padding: 10px 0;
 }
 .pricing .responsive-commercial .responsive-heading{
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 .pricing .responsive-commercial .responsive-description{
   padding: 10px;
@@ -240,7 +245,11 @@
 }
 
 .pricing .responsive-commercial .responsive-things-to-consider{
-  background-color: #f3f3f3;
+  background-color: black;
+  color: white;
+}
+.pricing .responsive-commercial .responsive-things-to-consider .responsive-heading{
+  border-bottom: 2px solid white;
 }
 .pricing .responsive-commercial .responsive-things-to-consider ul{
   list-style-position: inside;
@@ -266,7 +275,7 @@
   border: none;
 }
 .pricing .services .photoshoot td{
-  border-left: 1px solid black;
+  border-left: 2px solid #f3f3f3;
   padding-left: 20px;
 }
 .pricing .services .photoshoot td .description{
@@ -276,7 +285,8 @@
   list-style-position: inside;
 }
 .pricing .services .photoshoot .things-to-consider{
-  background-color: #f3f3f3;
+  background-color: black;
+  color: white;
 }
 .pricing .services .photoshoot .money .description span{
   display: block;
@@ -302,7 +312,7 @@
   padding: 10px 0;
 }
 .pricing .responsive-photoshoot .responsive-heading{
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 .pricing .responsive-photoshoot .responsive-description{
   padding: 10px;
@@ -310,7 +320,11 @@
 }
 
 .pricing .responsive-photoshoot .responsive-things-to-consider{
-  background-color: #f3f3f3;
+  background-color: black;
+  color: white;
+}
+.pricing .responsive-photoshoot .responsive-things-to-consider .responsive-heading{
+  border-bottom: 2px solid white;
 }
 .pricing .responsive-photoshoot .responsive-things-to-consider ul{
   list-style-position: inside;
@@ -331,7 +345,7 @@
   margin: auto;
 }
 .pricing .rentals .accordion-header .accordion-button{
-  background-color: #989898;
+  background-color: black;
   justify-content: center;
 }
 .pricing .rentals .accordion-header .accordion-button::after{
@@ -352,11 +366,8 @@
   text-align: initial;
   margin-top: 20px;
 }
-.pricing .rentals .accordion-header .accordion-button{
-  background-color: #989898;
-}
 .pricing .rentals .accordion-body{
-  background-color: #989898;
+  background-color: white;
   padding: 0;
 }
 
